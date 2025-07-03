@@ -3,10 +3,15 @@
   "wake_word": "Computer",
   "author": "Matthew Jones",
   "website": "https://scholar.google.com/citations?user=Mw5qnr0AAAAJ&hl=en",
-  "model": "./computer.tflite",
+  "model": "./comm_pew_ter.tflite",
+  "trained_languages": ["en","nl","fr","de","it","es","sv"],
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10
+    "sliding_window_average_size": 10,
+    "feature_step_size": 10,
+    "sliding_window_size": 10,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
