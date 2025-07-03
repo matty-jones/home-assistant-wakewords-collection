@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "Computer",
+  "author": "Matthew Jones",
+  "website": "https://scholar.google.com/citations?user=Mw5qnr0AAAAJ&hl=en",
+  "model": "./computer.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}
